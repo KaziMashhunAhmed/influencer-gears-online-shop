@@ -1,0 +1,37 @@
+/* For Small Device */
+@media screen and (max-width:576px){
+    /* nav section */
+        .nav-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 576px;
+            margin: 0 auto;
+            padding-top: 40px;
+    
+        }
+}
+.nav-container a>img {
+    height: 26px;
+    width: 26px;
+}
+.nav-container-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* For Medium Device */
+@media screen and (min-width:576.01px) and (max-width:992px){
+    /* nav section */
+        .nav-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 992px;
+            margin: 0 auto;
+            padding-top: 40px;
+    
+        }
+}
